@@ -2,8 +2,8 @@
 
 const game = new TankDesigner();
 game.createGameSpace('#mainDisplay');
-game.makeTank(SampleTank,{name: 'sampleTank'}, {currentSpot:{x: 5000 + game.gameArea.width()/2, y: 5000+game.gameArea.height()/2} });
-
+// game.makeTank(SampleTank,{name: 'sampleTank'}, {currentSpot:{x: 5000 + game.gameArea.width()/2, y: 5000+game.gameArea.height()/2} });
+game.makeTank(RyansTank,{name: 'Ryan'}, {currentSpot:{x: 5000 + game.gameArea.width()/2, y: 5000+game.gameArea.height()/2} });
 //game.makeTank(TargetTank,{name: 'targettank1'}, {currentSpot:{x: 4300 + game.gameArea.width()/2, y: 4300+game.gameArea.height()/2} });
 game.makeTank(TargetTank,{name: 'targettank2'}, {currentSpot:{x: 5030 + game.gameArea.width()/2, y: 5100+game.gameArea.height()/2} });
 game.makeTank(TargetTank,{name: 'targettank3'}, {currentSpot:{x: 5250 + game.gameArea.width()/2, y: 5320+game.gameArea.height()/2} });
