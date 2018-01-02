@@ -74,7 +74,7 @@ class SampleTank extends BaseTank{
 			
 		}
 	}
-	updateTargets(targets){
+	gettur(targets){
 		if(targets){
 			this.currentTarget = this.getClosestTargets(targets);
 		}
